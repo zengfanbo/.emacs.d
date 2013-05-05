@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: documentInfo
+# key: documentInfo
+# binding: "keybinding"
+# expand-env: ((some-var some-value))
+# --
+"""
+@author:
+@license:
+@contact:
+"""

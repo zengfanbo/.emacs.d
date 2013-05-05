@@ -1,0 +1,54 @@
+
+(setq load-path (cons "~/.emacs.d/org/lisp" load-path))
+(setq load-path (cons "~/.emacs.d/org/contrib/lisp" load-path))
+
+(require 'org-install)
+(require 'org)
+(require 'org-publish)
+(add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
+(add-hook 'org-mode-hook 'turn-on-font-lock)
+(add-hook 'org-mode-hook 
+	  (lambda() (setq truncate-lines nil)))
+(global-set-key "\C-cl" 'org-store-link)
+(global-set-key "\C-ca" 'org-agenda)
+(global-set-key "\C-cb" 'org-iswitchb)
+(setq org-log-done t)
+(setq org-todo-keywords
+      '((sequence "REPORT(r)" "BUG(b" "KNOWCAUSE(k)" "|" "FIXED(f)")
+	(sequence "TODO(T!)" "|" "DONE(D@)3" "CANCELED(C@/!)")
+))
+(setq org-refile-targets (quote ((nil :maxlevel . 5)(org-agenda-files :maxlevel . 5))))
+(setq org-refile-use-outline-path(quote file))
+(setq org-outline-path-complete-in-steps t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; set org mode to control time
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun org-summary-todo (n-done n-not-done)
+  "switch entry to DONE when all subentries are done, to TODO otherwise."
+  (let (org-log-into-done org-log-state) ; trun off logging
+    (org-todo (if (= n-not-done 0) "DONE" "TODO"))))
+(add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; setting the faces
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(setq org-todo-keyword-faces
+'(("TODO" .org-warning) ("STARTED" . "yellow")
+("CACELED" . (:frontground "blue" :weight bold))))
+(add-hook 'org-after-todo-statstics-hook 'org-todo-keyword-faces)
+(setq org-todo-keywords
+'((sequence "TODO(t!)" "NEXT(n)" "WAITING(w)" "DONE(d)" "ABORT(a@)""SOMEDAY(s)")))
+(setq org-clock-persistence-insinuate t)
+(setq org-clock-persist t)
+(setq org-clock-in-resume t)
+(setq org-clock-in-switch-to-status "STATED")
+(setq org-clock-into-drawer t)
+(setq org-clock-out-remove-zero-time-clocks t)
+
+(org-remember-insinuate)(setq-org-directory "~/Documents/org/")
+(setq org-remember-templates '(("New" "?n %?%t \n %i\n %a" "~/Documents/org/inbox.org")("Task" "?n %?%t \n %i\n %a" "~/Documents/org/task.org""Tasks")("Calendar" "?n %?%t \n %i\n %a" "~/Documents/org/tasks.org""Tasks")("Idea" "?n %?%t \n %i\n %a" "~/Documents/org/task.org""Ideas")("Project" "?n %?%t \n %i\n %a" "~/Documents/org/project.org""Project")("Note" "?n %?%t \n %i\n %a" "~/Documents/org/note.org""notes")))(setq org-default-notes-file (concat org-directory "/index.org"))
+
+'(org-refile-targets (quote (( "newgtd.org" :maxlevel . 1)
+			     ( "someday.org" :level . 2))))
+
+(provide 'init-org-mode)
+

@@ -1,0 +1,26 @@
+(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/cc/")
+(add-to-list 'load-path "~/.emacs.d/yasnippet")
+(require 'yasnippet)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; c basic-style
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(mouse-avoidance-mode t)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; the semanticdb
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+(defun my-c-common-hook()
+  (define-key c-mode-base-map [(f7)] 'compile)
+  (linum-mode t)
+  '(compile-command "make")
+  (hs-minor-mode t)
+  (setq c-set-style 'k&r))
+(add-hook 'c-mode-hook 'my-c-common-hook)
+(defun my-c++-common-hook()
+  (define-key c++-mode-map [(f7)] 'compile)
+  (linum-mode t)
+  '(compile-command "make")
+  (hs-minor-mode t)
+(setq c-set-style 'k&r))
+(add-hook 'c++-mode-hook 'my-c++-common-hook)
+(provide 'init-cc-mode)

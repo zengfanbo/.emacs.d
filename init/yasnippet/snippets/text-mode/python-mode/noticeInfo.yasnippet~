@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: pynoticeInfo
+# key: pynoticeInfo
+# binding: "keybinding"
+# expand-env: ((some-var some-value))
+# --
+
+
+"""
+@note:
+@attention:
+@bug:
+@warning:
+"""

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: functionInfo
+# key: functionInfo
+# binding: "keybinding"
+# expand-env: ((some-var some-value))
+# --
+
+"""
+@param p:
+@type v:
+@return:
+@rtype:
+"""

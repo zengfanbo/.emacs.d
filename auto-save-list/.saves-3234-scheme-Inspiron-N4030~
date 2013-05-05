@@ -1,0 +1,8 @@
+/home/scheme/.emacs.d/.gitgnore
+/home/scheme/.emacs.d/#.gitgnore#
+/home/scheme/.emacs.d/init/init-rebind.el
+/home/scheme/.emacs.d/init/#init-rebind.el#
+/home/scheme/.emacs.d/init/init-magit-mode.el
+/home/scheme/.emacs.d/init/#init-magit-mode.el#
+/home/scheme/.emacs.d/init.el
+/home/scheme/.emacs.d/#init.el#

@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: datastruct
+# key: datastruct
+# binding: "keybinding"
+# expand-env: ((some-var some-value))
+# --
+
+#ifndef %1
+#define %1
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+// the output the datastuct struct
+typedef struct _datastruct datastruct ,*pdatastruct;
+
+// predfine some marcro
+#define OK 0
+#define PARAM_ERROR 1
+#define MEM_ERROR 2
+#define ALU_ERROR 3
+#define STACK_ERROR 4
+
+// define the function here
+int datastruct_init(pdatastruct * init,int length);
+int datastruct_destroy(pdatastruct * destroy);
+int datastruct_fetch(pdatastruct fetch);
+int datastruct_put(pdatastruct put);
+int datastruct_sort(pdatastruct sort);
+int datastruct_random_fetch(pdatastruct  random_fetch);
+int datastruct_content_print(pdatastruct content_print);
+#endif

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: doxnoticeInfo
+# key: 
+# binding: "keybinding"
+# expand-env: ((some-var some-value))
+# --
