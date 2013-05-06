@@ -40,10 +40,10 @@
 (package-initialize)
 (require 'tabbar-autoloads)
 (require 'color-theme-autoloads)
-(require 'magit-autoloads)
+;;(require 'magit-autoloads)
 (setq inferior-lisp-program "/usr/bin/sbcl")
 (require 'org-autoloads)
-(require 'markdown-mode)
+;;;(require 'markdown-mode)
 ;;;; set the auto-complete
 (require 'init-auto-complete)
 ;;;(require 'init-w3m-mode)

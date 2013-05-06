@@ -9,9 +9,11 @@
 (global-set-key (kbd "\C-x\C-m") 'execute-extended-command)
 (global-set-key (kbd "\C-c\C-m") 'execute-extended-command)
 
-(global-set-key (kbd "\C-h") nil)
+;;(global-set-key (kbd "\C-h") nil)
 (global-set-key (kbd "\M-?") 'help-command)
-(global-set-key (kbd "\C-h") 'delete-backward-char)
+;;(global-set-key (kbd "\C-h") 'delete-backward-char)
+;;(global-set-key (kbd "\C-l") 'delete-backward-char)
+(global-set-key (kbd "\C-l") nil)
 
 
 ;; reachieve the previous windows and after windows

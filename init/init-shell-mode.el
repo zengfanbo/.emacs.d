@@ -39,7 +39,7 @@
 )
 )
 
-(add-hook 'comint-input-filter-functions 'rename-buffer-in-ssh-login)
+;;(add-hook 'comint-input-filter-functions 'rename-buffer-in-ssh-login)
 
 
 (defun split-window-4()
