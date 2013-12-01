@@ -3,8 +3,8 @@
 ;;(add-to-list 'package-archives '("marmalade" ."http://marmalade-repo.org/packages/"))
 
 (package-initialize)
+
 (require 'tabbar-autoloads)
-
-
+(require 'init-color-theme)
 
 (provide 'init-marmalade)
