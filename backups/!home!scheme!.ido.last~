@@ -1,0 +1,68 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "scheme/")
+ ("/home/scheme/code/2013-12/" . "2013-12-01/")
+ ("/home/scheme/.emacs.d/elpa/" . "starter-kit-2.0.3/")
+ ("/home/scheme/" . ".emacs.d/")
+ ("/home/scheme/code/" . "2013-12/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/scheme/.emacs.d/init/"
+ "/home/scheme/.emacs.d/"
+ "/home/scheme/code/2013-12/2013-12-01/"
+ "/home/scheme/.emacs.d/elpa/starter-kit-2.0.3/"
+ "/home/scheme/code/2013-12/2013-12-01/increment.c/"
+ "/home/scheme/.emacs.d/elpa/color-theme-6.5.5/"
+ "/home/scheme/code/2013-11-29/"
+ "/home/scheme/code/2013-11-27/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-basic-setting.el"
+ "init-color-theme.el"
+ "init-marmalde.el"
+ "init.el"
+ "main.c"
+ "init-cc-mode.el"
+ "init-auto-complete.el"
+ "starter-kit-autoloads.el"
+ "init-rebind.el"
+ "negate.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/scheme/.emacs.d/init/" (21147 13679 641004 243000) "init-auto-complete.el" "init-rebind.el" "company/" "auto-complete/" "init-auto-complete.el~" "init-cedet.el~" "#init-doxymacs-mode.el#" "init-cedet-model.el" "init-wb-line-number.el~" "ac-comphist.dat" "init-python-mode.el" "cscope/" "init-magit-mode.el" "auto-complete-setting.el~" "yasnippet/" "init-doxymacs-mode.el" "init-cweb-mode.el" "init-markdown-model.el~" "color-theme/" "init-scheme-mode.el" "init-scheme-mode.el~" "init-org-mode.el~" "#init-rebind.el#" "init-org-mode.el" "org/" "init-company-mode.el" "init-auctex.el" "./" "init-color-theme.el" "cedet-1.1/" "auto-complete-c.el" "init-emacs-lisp-mode.el" "init-cc-mode.el" "auto-complete-setting.el" "init-emacs-lisp-mode.el~" "init-markdown-model.el" "auto-complete-c.el~" "places" "init-cedet.el" "init-shell-mode.el~" "cscope-15.7a.tar" "popup.el" "init-gdb-mode.el~" "python/" "cscope-15.7a/" "ecb-2.40/" "wb-line-number.el" "init-cscope-mode.el~" "init-company-cmode.el" "init-wb-line-number.el" "auto-complete-yasnippet.el" "init-gdb-mode.el" "magit-1.1.1/" "markdown/" "init-company-mode.el~" "init-cc-mode.el~" "popup.elc" "flymake.el" "init-shell-mode.el" "doctest-mode.el" "markdown-model.el" "init-python-mode.el~" "cc/" "magit-1.1.1.tar.gz" "auto-complete-yasnippet.el~" "../" "init-marmalde.el" "init-cscope-mode.el")
+
+ ("/home/scheme/.emacs.d/" (21147 13638 349004 446000) "ac-comphist.dat" "init-tramp-mode.el" "computer.el" "./" "auto-save-list/" "elpa/" "places" ".git/" "elpa.tar.gz" "README.md" "backups/" "init.el" ".gitgnore" "init/" "../" ".smex-items")
+
+ ("/home/scheme/" (21147 12968 953007 737000) ".gvfs/" ".gitconfig" "文档/" ".xsession-errors" ".emacs.d/" ".win32/" ".pulse/" ".ssh/" "virtualbox-4.3_4.3.4-91027~Ubuntu~precise_amd64.deb" ".mozilla/" ".pki/" "wine32.sh" ".pulse-cookie" ".wine/" ".kingsoft/" ".xsession-errors.old" "音乐/" "模板/" ".Xauthority" "下载/" "./" ".face" ".fontconfig/" ".ido.last" "Ubuntu One/" ".vim/" "VirtualBox VMs/" ".config/" ".vimrc" ".onboard/" ".compiz-1/" ".pam_environment" ".macromedia/" ".gstreamer-0.10/" ".gconf/" ".screenrc" ".xsel.log" ".goutputstream-V1OZ6W" ".goutputstream-S7RD7W" ".thumbnails/" ".sunpinyin/" ".gnome2/" "视频/" ".bash_history" ".adobe/" ".dmrc" ".bashrc" "examples.desktop" "图片/" ".mission-control/" ".byobu/" ".recentf" ".goutputstream-ZO636W" ".viminfo" ".dbus/" "code/" "prefix32/" ".ibus/" ".fonts/" ".profile" ".bash_logout" ".local/" "../" "公共的/" "桌面/" ".ICEauthority" ".gksu.lock" ".gtk-bookmarks" ".cache/")
+
+ ("/home/scheme/.emacs.d/elpa/starter-kit-2.0.3/" (21147 12571 129009 693000) "./" "starter-kit-autoloads.el" "starter-kit.el" "starter-kit-defuns.elc" "starter-kit-misc.el" "starter-kit-pkg.el" "starter-kit.elc" "starter-kit-defuns.el" "../" "starter-kit-pkg.elc" "starter-kit-misc.elc")
+
+ ("/home/scheme/.emacs.d/elpa/" (21147 12570 41009 698000) "find-file-in-project-3.2/" "./" "starter-kit-2.0.3/" "color-theme-6.5.5/" "archives/" "tabbar-2.0.1/" "smex-2.1/" "magit-1.2.0/" "idle-highlight-mode-1.1.2/" "paredit-22/" "../" "ido-ubiquitous-2.9/")
+
+ ("/home/scheme/code/2013-12/2013-12-01/" (21147 11442 801015 240000) "increment.c" "./" "main.c" "negate.c" "../")
+
+ ("/home/" (21139 64522 681653 350000) "./" "scheme/" "../")
+
+ ("/home/scheme/code/2013-12/" (21147 3782 185052 905000) "./" "2013-12-01/" "../")
+
+ ("/home/scheme/code/" (21147 3782 185052 905000) "2013-12/" "./" "2013-11/" "progs.tar" "../" "awkprogs/")
+
+ ("/home/scheme/.emacs.d/elpa/color-theme-6.5.5/" (21141 58964 168450 624000) "./" "color-theme-pkg.elc" "color-theme.elc" "color-theme-pkg.el" "color-theme-autoloads.el" "color-theme-autoloads.el~" "color-theme.el" "../")
+
+ ("/home/scheme/code/awkprogs/" (11027 53112 0 0) "acronyms" "contrib/" "words" "glossary" "lotto" "grades.awk" "gres" "filesum" "getmac" "sedman" "do.outline.sed" "sp_wordlist" "date-month" "./" "sp_out" "runsed" "factorial" "match" "spellcheck.awk" "soelim.awk" "phones.data" "romanum" "README" "index.edit" "do.outline.awk" "index/" "invoke" "sp_input" "phone" "spellcheck" "lookup" "contrib2/" "bitmap.awk" "../" "awkro" "phrase")
+
+ ("/home/scheme/code/2013-11-29/" (21145 39688 645222 896000) "memcpy_leak.c" ".#memcpy_leak.c" "./" "checksum.out" "checksum.c" "../")
+
+ ("/home/scheme/code/2013-11-27/" (21143 23037 895103 336000) "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

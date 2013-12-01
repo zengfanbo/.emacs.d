@@ -1,0 +1,6 @@
+;;; -*- coding: utf-8 -*-
+(("/home/scheme/.emacs.d/init.el" . 260)
+ ("/home/scheme/.emacs.d/init/init-basic-setting.el" . 828)
+ ("/home/scheme/.emacs.d/init/init-color-theme.el" . 154)
+ ("/home/scheme/.emacs.d/init/init-marmalade.el" . 201)
+ ("/home/scheme/.emacs.d/init/init-yas-complete.el" . 180))

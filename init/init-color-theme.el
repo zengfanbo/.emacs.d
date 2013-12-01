@@ -1,0 +1,6 @@
+(add-to-list 'load-path "~/.emacs.d/init/color-theme/")
+(require 'color-theme)
+(color-theme-initialize)
+(color-theme-matrix)
+
+(provide 'init-color-theme)
