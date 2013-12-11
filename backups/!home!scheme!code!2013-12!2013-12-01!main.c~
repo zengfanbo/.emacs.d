@@ -1,0 +1,9 @@
+
+
+int increment(int par_increment) ;
+int negate(int par_negate) ;
+
+
+int main(int argc,char *argv[]) {
+     
+}

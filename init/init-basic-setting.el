@@ -13,7 +13,7 @@
 (global-set-key (kbd "C-c m") 'shell-command)
 (global-set-key (kbd "C-c f") 'goto-line)
 ;;
-
+(set-default-font "Courier New-12")
 (menu-bar-mode t)
 (defun my-fullscreen ()
   (interactive)

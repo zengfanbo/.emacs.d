@@ -3,7 +3,7 @@
 ;; ----- ido-last-directory-list -----
 (
  ("/home/" . "scheme/")
- ("/home/scheme/code/2013-12/" . "2013-12-01/")
+ ("/home/scheme/code/2013-12/" . "2013-12-08/")
  ("/home/scheme/.emacs.d/elpa/" . "starter-kit-2.0.3/")
  ("/home/scheme/" . ".emacs.d/")
  ("/home/scheme/code/" . "2013-12/")
@@ -11,9 +11,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/scheme/code/2013-12/2013-12-08/"
  "/home/scheme/.emacs.d/init/"
- "/home/scheme/.emacs.d/"
+ "/home/scheme/code/2013-12/2013-12-05/"
  "/home/scheme/code/2013-12/2013-12-01/"
+ "/home/scheme/.emacs.d/"
  "/home/scheme/.emacs.d/elpa/starter-kit-2.0.3/"
  "/home/scheme/code/2013-12/2013-12-01/increment.c/"
  "/home/scheme/.emacs.d/elpa/color-theme-6.5.5/"
@@ -23,35 +25,39 @@
 
 ;; ----- ido-work-file-list -----
 (
- "init-basic-setting.el"
- "init-color-theme.el"
- "init-marmalade.el"
- "init-yas-complete.el"
- "init-doxymacs-mode.el"
- "init.el"
- "init-marmalde.el"
- "main.c"
+ "test.c"
  "init-cc-mode.el"
- "init-auto-complete.el"
+ "eat-hambeger.c"
+ "init-basic-setting.el"
+ "init-rebind.el"
+ "enum.c"
+ "increment.c"
+ "init.el"
+ "main.c"
+ "init-color-theme.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/scheme/.emacs.d/" (21147 17922 964983 380000) "ac-comphist.dat" "init-tramp-mode.el" "computer.el" "./" "auto-save-list/" "elpa/" "places" ".git/" "elpa.tar.gz" "README.md" "backups/" "init.el" ".gitgnore" "init/" "../" ".smex-items")
+ ("/home/scheme/code/2013-12/2013-12-08/" (21156 20815 181915 833000) "./" "../")
 
- ("/home/scheme/" (21147 17922 908983 381000) ".gvfs/" ".gitconfig" "文档/" ".xsession-errors" ".emacs.d/" ".win32/" ".pulse/" ".ssh/" "virtualbox-4.3_4.3.4-91027~Ubuntu~precise_amd64.deb" ".mozilla/" ".pki/" "wine32.sh" ".pulse-cookie" ".wine/" ".kingsoft/" ".xsession-errors.old" "音乐/" "模板/" ".Xauthority" "下载/" "./" ".face" ".fontconfig/" ".ido.last" "Ubuntu One/" ".vim/" "VirtualBox VMs/" ".config/" ".vimrc" ".onboard/" ".compiz-1/" ".pam_environment" ".macromedia/" ".gstreamer-0.10/" ".gconf/" ".screenrc" ".xsel.log" ".goutputstream-V1OZ6W" ".goutputstream-S7RD7W" ".thumbnails/" ".sunpinyin/" ".gnome2/" "视频/" ".bash_history" ".adobe/" ".dmrc" ".bashrc" "examples.desktop" "图片/" ".mission-control/" ".byobu/" ".recentf" ".goutputstream-ZO636W" ".viminfo" ".dbus/" "code/" "prefix32/" ".ibus/" ".fonts/" ".profile" ".bash_logout" ".local/" "../" "公共的/" "桌面/" ".ICEauthority" ".gksu.lock" ".gtk-bookmarks" ".cache/")
+ ("/home/scheme/code/2013-12/" (21156 20815 181915 833000) "./" "2013-12-08/" "2013-12-01/" "2013-12-05/" "../")
+
+ ("/home/scheme/" (21156 19995 481902 800000) ".gvfs/" ".gitconfig" "文档/" ".xsession-errors" ".emacs.d/" ".win32/" ".pulse/" ".ssh/" "virtualbox-4.3_4.3.4-91027~Ubuntu~precise_amd64.deb" ".mozilla/" ".install4j" ".pki/" "wine32.sh" ".pulse-cookie" ".wine/" ".kingsoft/" ".xsession-errors.old" "音乐/" "模板/" ".Xauthority" "下载/" "./" ".face" ".fontconfig/" ".ido.last" "Ubuntu One/" ".vim/" "VirtualBox VMs/" ".lantern.installer.log" ".config/" ".vimrc" ".onboard/" ".compiz-1/" ".pam_environment" ".macromedia/" ".gstreamer-0.10/" ".gconf/" ".screenrc" ".xsel.log" ".goutputstream-V1OZ6W" ".goutputstream-S7RD7W" ".shotwell/" ".thumbnails/" ".java/" ".sunpinyin/" ".gnome2/" ".littleshoot/" "视频/" ".bash_history" ".adobe/" "main.c" ".dmrc" ".bashrc" "examples.desktop" "图片/" ".mission-control/" ".byobu/" "lantern/" ".recentf" ".goutputstream-ZO636W" ".viminfo" ".gphoto/" ".dbus/" "code/" "prefix32/" ".ibus/" ".fonts/" ".profile" ".bash_logout" ".local/" "../" "公共的/" "桌面/" ".ICEauthority" ".gksu.lock" ".gtk-bookmarks" ".cache/")
+
+ ("/home/scheme/.emacs.d/init/" (21152 697 315044 477000) "init-auto-complete.el" "init-rebind.el" "company/" "auto-complete/" "init-auto-complete.el~" "init-cedet.el~" "#init-doxymacs-mode.el#" "init-cedet-model.el" "init-wb-line-number.el~" "ac-comphist.dat" "init-python-mode.el" "cscope/" "init-magit-mode.el" "auto-complete-setting.el~" "yasnippet/" "init-doxymacs-mode.el" "init-cweb-mode.el" "init-markdown-model.el~" "color-theme/" "init-scheme-mode.el" "init-scheme-mode.el~" "init-org-mode.el~" "init-org-mode.el" "org/" "init-company-mode.el" "init-auctex.el" "./" "init-color-theme.el" "cedet-1.1/" "auto-complete-c.el" "init-emacs-lisp-mode.el" "init-cc-mode.el" "auto-complete-setting.el" "init-emacs-lisp-mode.el~" "init-markdown-model.el" "auto-complete-c.el~" "places" "init-cedet.el" "init-shell-mode.el~" "cscope-15.7a.tar" "popup.el" "init-gdb-mode.el~" "python/" "cscope-15.7a/" "ecb-2.40/" "wb-line-number.el" "init-cscope-mode.el~" "init-company-cmode.el" "init-wb-line-number.el" "auto-complete-yasnippet.el" "init-gdb-mode.el" "magit-1.1.1/" "init-basic-setting.el" "markdown/" "init-company-mode.el~" "init-cc-mode.el~" "popup.elc" "init-marmalade.el" "flymake.el" "init-shell-mode.el" "doctest-mode.el" "init-yas-complete.el" "markdown-model.el" "init-python-mode.el~" "cc/" "magit-1.1.1.tar.gz" "auto-complete-yasnippet.el~" "../" "init-cscope-mode.el")
+
+ ("/home/scheme/code/2013-12/2013-12-05/" (21152 784 631045 865000) "enum.out" "./" "enum.c" "eat-hambeger.c" "../")
+
+ ("/home/scheme/.emacs.d/" (21151 65495 599032 748000) "ac-comphist.dat" "init-tramp-mode.el" "computer.el" "./" "auto-save-list/" "elpa/" "places" ".git/" "elpa.tar.gz" "README.md" "backups/" "init.el" ".gitgnore" "init/" "../" ".smex-items")
+
+ ("/home/scheme/code/2013-12/2013-12-01/" (21147 20237 268972 2000) "increment.c" "./" "main.out" "main.c" "negate.c" "../")
 
  ("/home/scheme/.emacs.d/elpa/" (21147 17897 456983 506000) "company-0.6.8/" "ido-ubiquitous-1.0/" "starter-kit-20130610.2222/" "magit-20131126.621/" "find-file-in-project-3.2/" "git-commit-mode-20131124.2132/" "./" "furl-0.0.2/" "eldoc-eval-0.1/" "auto-complete-1.4/" "actionscript-mode-20130328.1110/" "color-theme-6.5.5/" "archives/" "shen-mode-0.1/" "tabbar-2.0.1/" "popup-0.5/" "idle-highlight-mode-1.1.2/" "paredit-22/" "../" "wcheck-mode-2012.1.29/" "git-rebase-mode-20131005.1730/" "smex-1.1.2/")
 
- ("/home/scheme/.emacs.d/init/" (21147 17802 696983 972000) "init-auto-complete.el" "init-rebind.el" "company/" "auto-complete/" "init-auto-complete.el~" "init-cedet.el~" "#init-doxymacs-mode.el#" "init-cedet-model.el" "init-wb-line-number.el~" "ac-comphist.dat" "init-python-mode.el" "cscope/" "init-magit-mode.el" "auto-complete-setting.el~" "yasnippet/" "init-doxymacs-mode.el" "init-cweb-mode.el" "init-markdown-model.el~" "color-theme/" "init-scheme-mode.el" "init-scheme-mode.el~" "init-org-mode.el~" "init-org-mode.el" "org/" "init-company-mode.el" "init-auctex.el" "./" "init-color-theme.el" "cedet-1.1/" "auto-complete-c.el" "init-emacs-lisp-mode.el" "init-cc-mode.el" "auto-complete-setting.el" "init-emacs-lisp-mode.el~" "init-markdown-model.el" "auto-complete-c.el~" "places" "init-cedet.el" "init-shell-mode.el~" "cscope-15.7a.tar" "popup.el" "init-gdb-mode.el~" "python/" "cscope-15.7a/" "ecb-2.40/" "wb-line-number.el" "init-cscope-mode.el~" "init-company-cmode.el" "init-wb-line-number.el" "auto-complete-yasnippet.el" "init-gdb-mode.el" "magit-1.1.1/" "init-basic-setting.el" "markdown/" "init-company-mode.el~" "init-cc-mode.el~" "popup.elc" "init-marmalade.el" "flymake.el" "init-shell-mode.el" "doctest-mode.el" "init-yas-complete.el" "markdown-model.el" "init-python-mode.el~" "cc/" "magit-1.1.1.tar.gz" "auto-complete-yasnippet.el~" "../" "init-cscope-mode.el")
-
  ("/home/scheme/.emacs.d/elpa/starter-kit-2.0.3/" (21147 12571 129009 693000) "./" "starter-kit-autoloads.el" "starter-kit.el" "starter-kit-defuns.elc" "starter-kit-misc.el" "starter-kit-pkg.el" "starter-kit.elc" "starter-kit-defuns.el" "../" "starter-kit-pkg.elc" "starter-kit-misc.elc")
 
- ("/home/scheme/code/2013-12/2013-12-01/" (21147 11442 801015 240000) "increment.c" "./" "main.c" "negate.c" "../")
-
  ("/home/" (21139 64522 681653 350000) "./" "scheme/" "../")
-
- ("/home/scheme/code/2013-12/" (21147 3782 185052 905000) "./" "2013-12-01/" "../")
 
  ("/home/scheme/code/" (21147 3782 185052 905000) "2013-12/" "./" "2013-11/" "progs.tar" "../" "awkprogs/")
 
